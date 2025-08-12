@@ -1,0 +1,51 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 33% 33% auto;
+    gap: 50px;
+    background-color: gray;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container > div{
+    background-color: rgb(189 189 189);
+    text-align: center;
+}
+
+.cajita{
+    width: 100px;
+    height: 100px;
+}
+
+.Solid{
+    border: 5px Solid black;
+    border-radius: 15px;
+}
+.Dotted{
+    border: 5px Dotted black;
+    border-radius: 15px;
+}
+.Dashed{
+    border: 5px Dashed black;
+    border-radius: 15px;
+}
+.Double{
+    border: 5px Double black;
+    border-radius: 15px;
+}
+.Groove{
+    border: 5px Groove black;
+    border-radius: 15px;
+}
+.Ridge{
+    border: 5px Ridge black;
+    border-radius: 15px;
+}
+.Inset{
+    border: 5px Inset black;
+    border-radius: 15px;
+}
+.Outset{
+    border: 5px Outset black;
+    border-radius: 15px;
+}
