@@ -1,0 +1,35 @@
+.cajita{
+    margin: 20px;
+    padding: 20px25px;
+    border: 2px solid black;
+    width: 25px;
+    height: 25px;
+    position: relative;
+}
+
+@keyframes ejemplo{
+    from{
+        left: 0;
+        background-color: red;
+    }
+    to{
+        left: 250px;
+        background-color: blue;
+    }
+}
+
+.Linear{
+    animation: ejemplo 2s linear infinite alternate;
+}
+.Easy{
+    animation: ejemplo 2s ease infinite alternate;
+}
+.Easy-In{
+    animation: ejemplo 2s ease-in infinite alternate;
+}
+.Easy-Out{
+    animation: ejemplo 2s ease-out infinite alternate;
+}
+.Easy-In-Out{
+    animation: ejemplo 2s ease-in-out infinite alternate;
+}
